@@ -1,20 +1,24 @@
 body{
     background-color: antiquewhite;
 }
-
-
 .app-title{
     text-align: center;
 }
 .search-bar{
-    display: block;
     margin: 10px auto;
+    display: block;
     width: 50%;
     padding: 10px;
     font-size: 30px;
-    border-radius: 10px;
+    border-radius: 50px;
+    border: 5px solid wheat;
+
 }
-.temperature-text{
+.temprature-text{
     text-align: center;
     font-size: 30px;
+}
+.message-text{
+    text-align: center;
+    font-size: 24px;
 }
